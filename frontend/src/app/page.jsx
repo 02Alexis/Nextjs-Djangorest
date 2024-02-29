@@ -3,10 +3,12 @@ import ListTask from "./components/ListTask";
 
 function HomePage() {
   return (
-    <div>
+    <div className="container mx-auto">
       <div>front App</div>
-      <FormTask />
-      <ListTask />
+      <div className="flex gap-x-10">
+        <FormTask />
+        <ListTask />
+      </div>
     </div>
   );
 }
