@@ -1,9 +1,12 @@
+import FormTask from "./components/FormTask";
+import ListTask from "./components/ListTask";
+
 function HomePage() {
   return (
     <div>
       <div>front App</div>
-      <div>Form front</div>
-      <div>List front</div>
+      <FormTask />
+      <ListTask />
     </div>
   );
 }
